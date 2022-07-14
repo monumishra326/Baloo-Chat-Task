@@ -1,0 +1,16 @@
+#BotNav{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 75px;
+    background-color: #1E1E1E;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#BotNav>div{
+    border-bottom: 3px;
+}

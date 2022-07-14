@@ -1,0 +1,52 @@
+#Messages{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: calc(100vh - 99px);
+    overflow-y: scroll;
+}
+#Messages>div{
+    display: flex;
+    padding: 12px 24px;
+}
+#Messages>div>div:first-child{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#Messages>div>div:nth-child(2){
+    margin-left: 20px;
+}
+#Messages>div>div:nth-child(2)>div:first-child{
+    font-size: 16px;
+    font-weight:500;
+}
+#Messages>div>div:nth-child(2)>div:last-child{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+}
+#Messages>div>div:last-child{
+    margin-left: auto;
+}
+#Messages>div>div:last-child>div:first-child{
+    font-size: 10px;
+    font-weight: 300;
+}
+#Messages>div>div:last-child>div:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+#Messages>div>div:last-child>div:last-child>div{
+    margin-left: auto;
+    color:white;
+}
+#Messages img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+::-webkit-scrollbar{
+    display: none;
+}

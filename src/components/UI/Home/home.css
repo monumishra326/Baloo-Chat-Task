@@ -1,0 +1,27 @@
+#Home{
+    width: 420px;
+    height: calc(100vh - 2px);
+    border: 1px solid #000000;
+    border-radius: 30px;
+    margin: auto;
+    background-color: #000000;
+    position: relative;
+}
+#add_mem{
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 18, 151);
+}
+
+@media only screen and (max-width:640px) {
+    #Home{
+        width: 100%;
+    }
+}
